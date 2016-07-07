@@ -1,0 +1,57 @@
+net outAddr[0] loc = NA;
+net outAddr[1] loc = J1;
+net outAddr[2] loc = J2;
+net outAddr[3] loc = H4;
+net outAddr[4] loc = H1;
+net outAddr[5] loc = H2;
+net outAddr[6] loc = J5;
+net outAddr[7] loc = H3;
+net outAddr[8] loc = H6;
+net outAddr[9] loc = F1;
+net outAddr[10] loc = G3;
+net outAddr[11] loc = G6;
+net outAddr[12] loc = G5;
+net outAddr[13] loc = G4;
+net outAddr[14] loc = F2;
+net outAddr[15] loc = E1;
+net outAddr[16] loc = M5;
+net outAddr[17] loc = E2;
+net outAddr[18] loc = C2;
+net outAddr[19] loc = C1;
+net outAddr[20] loc = D2;
+net outAddr[21] loc = K3;
+net outAddr[22] loc = D1;
+net outAddr[23] loc = K6;
+
+net outData[0] loc = L1;
+net outData[1] loc = L4;
+net outData[2] loc = L6;
+net outData[3] loc = M4;
+net outData[4] loc = N5;
+net outData[5] loc = P1;
+net outData[6] loc = P2;
+net outData[7] loc = R2;
+net outData[8] loc = L3;
+net outData[9] loc = L5;
+net outData[10] loc = M3;
+net outData[11] loc = M6;
+net outData]12] loc = L2;
+net outData[13] loc = N4;
+net outData[14] loc = R3;
+net outData[15] loc = T1;
+
+
+net outputEnable loc = T2;
+net writeEnable loc = N7;
+
+net mt_adv loc = J4;
+net mt_clk loc = H5;
+net mt_ub  loc = K4;
+net mt_lb  loc = K5;
+net mt_ce  loc = R6;
+net mt_cre loc = P7;
+net mt_wait loc = F5;
+
+net st_sts loc = D3;
+net rp 	  loc = T5;
+net st_ce  loc = R5;
