@@ -1,0 +1,4 @@
+verilog isim_temp "ROM_Interface.v"
+verilog isim_temp "RAM_ROM_Controller.v"
+verilog isim_temp "tRAM_ROM_Controller.v"
+verilog isim_temp "E:/Programs/Xilinx_ISE_2012.4/14.4/ISE_DS/ISE//verilog/src/glbl.v"

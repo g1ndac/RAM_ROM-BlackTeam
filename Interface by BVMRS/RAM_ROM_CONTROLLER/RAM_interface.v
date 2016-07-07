@@ -1,4 +1,4 @@
-module RAM_interface #(parameter ADDRESS_SIZE = 24,
+module RAM_Interface #(parameter ADDRESS_SIZE = 24,
 											DATA_SIZE 	 = 15 )(
 	// General purpose signals
 		input		[ADDRESS_SIZE - 1: 0]			 outAddress, // memory address from interface

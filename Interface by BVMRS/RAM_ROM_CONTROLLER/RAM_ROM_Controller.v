@@ -7,7 +7,7 @@ module RAM_ROM_Controller
 		input		[ADDRESS_SIZE - 1: 0]			  	  inAddr, // address from FPGA
 		inout 	[	 DATA_SIZE - 1: 0]				  inData, // data from / to FPGA
 		input												 chipSelect, // RAM / ROM select
-		input											  lenghtSelect, // 8 bit or 16 bit word
+		input											  lengthSelect, // 8 bit or 16 bit word
 		input 												opSelect,	 // read or write
 	// Signals to FPGA
 		output													  ack, // operation succesful
@@ -32,5 +32,25 @@ module RAM_ROM_Controller
 	// Signals from ROM
 		input 												  st_sts
 	 );
+	 
+	 assign rp = (rst)?(1):(0);
 
-endmodule
+ChipSelectDecoder ChipSelectDecoder(
+		.chipSelect									  (chipSelect),
+		.mtChipEnable										 (mt_ce),
+		.stChipEnable										 (st_ce)
+		);
+
+LengthSelectControl LengthSelectControl(
+		.lengthSelect								(lengthSelect),
+		.lowerByte										(lowerByte),
+		.upperByte										(upperByte)
+		);
+
+OperationSelectDecoder OperationSelectDecoder(
+		.opSelect										 (opSelect),
+		.outputEnable								(outputEnable),
+		.writeEnable								 (writeEnable)
+		);
+		
+endmodule 

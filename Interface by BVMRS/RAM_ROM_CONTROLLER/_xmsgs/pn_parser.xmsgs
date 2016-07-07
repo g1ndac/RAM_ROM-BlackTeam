@@ -5,19 +5,31 @@
 <!--     behavior or data corruption.  It is strongly advised that -->
 <!--     users do not edit the contents of this file.              -->
 <!--                                                               -->
-<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/student/RAM_ROM_CONTROLLER/RAM_ROM_Controller.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/ChipSelectDecoder.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/student/RAM_ROM_CONTROLLER/RAM_interface.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/LengthSelectControl.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/student/RAM_ROM_CONTROLLER/ROM_Interface.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/OperationSelectDecoder.v&quot; into library work</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/student/RAM_ROM_CONTROLLER/tRAM_ROM_Controller.v&quot; into library work</arg>
+<msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/OperationSelectDecoder.v</arg>&quot; Line <arg fmt="%d" index="2">5</arg>. <arg fmt="%s" index="3">Syntax error near &quot;)&quot;.</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/RAM_Interface.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/RAM_ROM_Controller.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/ROM_Interface.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/berbe/Desktop/RAM_ROM-BlackTeam/Interface by BVMRS/RAM_ROM_CONTROLLER/tRAM_ROM_Controller.v&quot; into library work</arg>
 </msg>
 
 </messages>
