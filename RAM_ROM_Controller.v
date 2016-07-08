@@ -1,3 +1,4 @@
+
 module RAM_ROM_Controller 
 		#(parameter ADDRESS_SIZE = 24,
 						DATA_SIZE 	 = 15 )(
@@ -8,7 +9,7 @@ module RAM_ROM_Controller
 		inout 	[	 DATA_SIZE - 1: 0]				  inData, // data from / to FPGA 
 		input												 chipSelect, // RAM / ROM select							X
 		input											  lengthSelect, // 8 bit or 16 bit word					X						
-		input 												opSelect, // read or write								X
+		input 												opSelect,	 // read or write							X
 	// Signals to FPGA
 		output													  ack, // operation succesful
  		output 													ready, // FPGA can initiate next operation
@@ -54,16 +55,6 @@ OperationSelectDecoder OperationSelectDecoder(
 		.writeEnable								 (writeEnable)
 		);
 		
-RAM_Controller_Automaton RAM_Controller_Automaton(
-		.clk														(clk),
-		.rst														(rst),
-		.chipEnable									  (chipEnable),
-		.outputEnable								(outputEnable),
-		.writeEnable								 (writeEnable),
-		.outAddress									  (outAddress),
-		.outData											  (outData),
-		.inAddress										(inAddress),
-		.inData												(inData)
-		);
+		
 		
 endmodule 
