@@ -1,7 +1,7 @@
 module OperationSelectDecoder(
 		input 								opSelect,
 		output reg 					  outputEnable,
-		output reg 						writeEnable,
+		output reg 						writeEnable
     );
 
 	always @ (*) begin

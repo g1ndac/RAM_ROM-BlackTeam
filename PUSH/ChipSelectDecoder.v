@@ -6,10 +6,12 @@ module ChipSelectDecoder(
 
 	always @ (*) begin
 		if(chipSelect) begin
-			ramSelected = 1;
+			mtChipEnable = 0;
+			stChipEnable = 1;
 		end
 		else begin
-			ramSelected = 0;
+			mtChipEnable = 1;
+			stChipEnable = 0;
 		end
 	end
 
